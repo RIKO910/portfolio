@@ -6,7 +6,9 @@ import car from '../../images/car.png'
 import dokan from '../../images/dokan.png'
 const Portfolio = () => {
     return (
-        <div className='grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2 gap-4'>
+        <div >
+            <h1 className='my-9 text-3xl font-bold '>All Projects </h1>
+            <div className='grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2 gap-4'>
             <div className="card card-compact w-96 bg-base-100 shadow-xl">
                 <figure><img src={doctor} alt="Shoes" /></figure>
                 <div className="card-body">
@@ -17,6 +19,7 @@ const Portfolio = () => {
                             <a href="" rel="noopener noreferrer" target="_blank">
                                 <FontAwesomeIcon className='text-xl' icon={faCode}></FontAwesomeIcon>
                             </a>
+        
                         </button>
                         <button className='btn btn-outline border-4 btn-primary rounded-full tooltip' data-tip="see demo">
                             <a href="https://rikos-doctors-portal.netlify.app/" target="_blank" rel="noopener noreferrer">
@@ -71,6 +74,8 @@ const Portfolio = () => {
                 </div>
             </div>
         </div>
+        </div>
+        
     );
 };
 

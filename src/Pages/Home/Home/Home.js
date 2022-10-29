@@ -1,5 +1,7 @@
 import React from 'react';
 import profile from '../../../images/profile.jpg'
+import Contact from '../../Contact/Contact';
+import Footer from '../../Footer/Footer';
 import Portfolio from '../../Portfolio/Portfolio';
 
 const Home = () => {
@@ -23,6 +25,8 @@ const Home = () => {
         </div >
         <div className='mx-11 my-11'>
         <Portfolio></Portfolio>
+        <Contact></Contact>
+        <Footer></Footer>
         </div>
         
         </div>
